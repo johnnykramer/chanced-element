@@ -1,0 +1,12 @@
+{
+  "name": "chanced-element",
+  "version": "1.0.0",
+  "description": "Get a random array element with a specific chance",
+  "main": "index.js",
+  "repository": "https://github.com/johnnykramer/chanced-element",
+  "author": "johnnykramer <kuzmychev@gmail.com>",
+  "license": "MIT",
+  "script": {
+    "start": "node index.js"
+  }
+}
