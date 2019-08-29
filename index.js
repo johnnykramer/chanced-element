@@ -4,6 +4,9 @@ const chancedElement = (params = {}, options = {}) => {
   try {
     validateParams(params)
     const { variants } = params
+    const sumOfChances = variants.reduce((acc, el) => (acc += el.chance), 0)
+    if (sumOfChances !== 100)
+      throw new Error('Sum of chances is not equals 100!')
     const { randomEngine } = options
     let random = getRandomByEngine(randomEngine)
     for (let i = 0; i < variants.length; i += 1) {

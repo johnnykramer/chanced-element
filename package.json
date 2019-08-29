@@ -1,6 +1,6 @@
 {
   "name": "chanced-element",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get a random array element with a specific chance",
   "main": "index.js",
   "repository": {
