@@ -1,8 +1,9 @@
-# Get a random array element with a specific chance
+# Chanced element
+## Get a random array element with a specific chance
 
-## How to
+### How to
 
-### Install
+#### Install
 
 ```bash
 yarn add chanced-element
@@ -14,7 +15,7 @@ or
 npm install --save chanced-element
 ```
 
-### Run
+#### Run
 
 Sum of `chance`s should be equals 100, like 50% chance + 50% chance = 100%.
 
@@ -33,7 +34,7 @@ const { data } = chancedElement({
 console.log(`I Am ${data}`)
 ```
 
-## TODO
+### TODO
 
 - Add more random engines
 - Make it more customizable
